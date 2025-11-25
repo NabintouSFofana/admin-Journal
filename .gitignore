@@ -1,0 +1,18 @@
+# ⚠️ Ne jamais committer tes identifiants admin
+config.local.js
+
+# Fichiers d'environnement (au cas où)
+.env
+.env.local
+.env.*.local
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Dossiers d'éditeur
+.idea/
+.vscode/
+
+# Logs éventuels
+*.log

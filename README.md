@@ -1,0 +1,51 @@
+# 🔐 Admin · Journal de Nabie
+
+Cet espace est un **panneau d’administration local** pour le blog _Journal de Nabie_.  
+Il permet de gérer, depuis une seule interface :
+
+- les articles du blog,
+- les messages reçus,
+- les abonnées newsletter,
+- les souscriptions / programmes.
+
+> ⚠️ Cet admin est pensé pour un usage **personnel** et **local**, pas comme un back-office professionnel en ligne.
+
+---
+
+## ✨ Fonctionnalités
+
+- Tableau de bord avec récap (articles, messages, abonnées, programmes)
+- Formulaire pour créer / modifier / supprimer des articles
+- Liste des messages (avec détail + zone de réponse à copier-coller)
+- Liste des abonnées newsletter
+- Liste des programmes / souscriptions
+- Interface moderne, rose & jaune, alignée avec le design du blog
+- Données stockées dans le navigateur via `localStorage`
+
+---
+
+## 🔐 Accès admin (login)
+
+L’accès à l’admin est protégé par un petit écran de connexion (login + mot de passe).
+
+Le mot de passe **ne doit pas être committé sur GitHub** :  
+il est chargé depuis un fichier de configuration local (**non versionné**), par exemple `config.local.js`.
+
+---
+
+## Screeshot
+<img width="984" height="756" alt="Screenshot 2025-11-25 115238" src="https://github.com/user-attachments/assets/90b07e19-85b5-4129-a502-4f093379ba56" />
+
+<img width="1672" height="837" alt="image" src="https://github.com/user-attachments/assets/4bab5ccb-f309-406e-adac-c284c687d429" />
+
+
+## 📁 Structure recommandée
+
+```bash
+journal-de-nabie-admin/
+│
+├── admin.html
+├── admin.js          # (optionnel si tu sépares le JS)
+├── config.local.js   # identifiants admin (NON commit sur Git)
+├── README.md
+└── .gitignore
