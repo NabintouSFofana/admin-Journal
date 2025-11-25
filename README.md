@@ -34,10 +34,10 @@ il est chargé depuis un fichier de configuration local (**non versionné**), pa
 ---
 
 ## Screeshot
-<img width="1672" height="837" alt="Screenshot 2025-11-25 121649" src="https://github.com/user-attachments/assets/b4b06bc2-f8cb-4052-b22d-d96eba998326" />
 
 <img width="836" height="675" alt="Screenshot 2025-11-25 124050" src="https://github.com/user-attachments/assets/caff58a3-aef8-40d5-bf63-f80e7c4800f0" />
 
+<img width="1672" height="837" alt="Screenshot 2025-11-25 121649" src="https://github.com/user-attachments/assets/b4b06bc2-f8cb-4052-b22d-d96eba998326" />
 
 
 ## 📁 Structure recommandée
